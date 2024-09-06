@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form";
 
 /**
- * Super basic form to handle first name and last name
+ * Super basic form to handle first name and last name + reset button
  */
 const Example1 = () => {
   const { register, handleSubmit, reset } = useForm();
