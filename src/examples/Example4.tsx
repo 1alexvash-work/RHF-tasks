@@ -1,9 +1,10 @@
 import { Controller, useForm } from "react-hook-form";
 
 /**
- * Display one value (kg) and save another (lbs) in the backend
+ * Hold/keep/save one value inside input, while display another in the UI
+ *  Display one value (kg) and save another (lbs) in the backend
  *
- * One way to achieve this, likely a bit suboptimal
+ * One way to achieve this, likely a bit suboptimal implementation
  */
 const Example4 = () => {
   const { control, handleSubmit } = useForm({
